@@ -5,9 +5,7 @@ export default defineConfig({
   plugins: [react()],
   preview: {
     port: 10000,
-    host: true
-  },
-  server: {
-    historyApiFallback: true
+    host: true,
+    allowedHosts: ["lost-found-frontend-onf9.onrender.com"]
   }
 })
