@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 
-const API = "http://localhost:5000/api";
+const API = "https://lost-found-backend-bfe7.onrender.com/api";
 
 function Register() {
   const [formData, setFormData] = useState({
